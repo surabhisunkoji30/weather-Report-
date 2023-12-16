@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forcast</title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body> 
+    <div class="header">
+        <h1> Weather Report Application</h1>
+    </div>
+    <div id="weather">
+        <div class="input">
+            <input class="search" type="text">
+            <button onclick="search()" ><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="icon">
+            <!-- <img src="https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/29/1d/a7/291da7fa-c7fa-4682-195e-8fd177fb1fe9/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/256x256bb.jpg" alt=""> -->
+            <h1 class="season">Weather</h1>
+        </div>
+        <div class="details">
+            <h1 class="temp">0°c</h1>
+            <h2 class="city">- - -</h2>
+        </div>
+        <div class="detail1">
+            <div class="data">
+                <h2 class="h">0%</h2>
+                <p>Humidity</p>
+            </div>
+            <div class="data">
+                <h2 class="w">0km/hr</h2>
+                <p>Wind Speed</p>
+            </div>    
+        </div>
+        <div class="footer">
+            developed by Surabhi
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
