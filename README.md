@@ -1,1 +1,2 @@
 # weather-Report-
+This example creates a simple webpage with an input field for the user to enter a city, a button to trigger the weather data retrieval, and a div to display the weather information. The JavaScript code fetches data from the OpenWeatherMap API and displays the temperature and weather description on the webpage. The CSS file provides basic styling to improve the visual appearance of the weather app.
